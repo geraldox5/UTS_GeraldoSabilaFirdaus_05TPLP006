@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Sistem Informasi Manajemen Karyawan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="perusahaan.png" alt="Logo Perusahaan">
+            </div>
+            <div class="user-info">
+                <h2>UNIVERSITAS PAMULANG</h2>
+                <h4>Selamat Datang</h4>
+                <p>Geraldo SF</p>
+                <small>Administrator</small>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active"><a href="dashboard.html">Dashboard</a></li>
+                    <li>
+                        <a href="karyawan.html">Karyawan</a>
+                        <ul>
+                            <li><a href="karyawan.html">Data Karyawan</a></li>
+                            <li><a href="jabatan.html">Jabatan</a></li>
+                            <li><a href="divisi.html">Divisi</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="absen.html">Absen</a>
+                        <ul>
+                            <li><a href="daftar_hadir.html">Absen</a></li>
+                            <li><a href="izin.html">Izin</a></li>
+                            <li><a href="lembur.html">Lembur</a></li>
+                        </ul>
+                    </li>
+                    <li>
+
+                    <li>
+                    <a> Menu Admin</a>
+                        <ul>
+                            <li><a href="gajian.html">Pengguna</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <h1>Sistem Informasi Manajemen Karyawan</h1>
+                <p>Admin Dashboard</p>
+            </header>
+
+            <!-- Cards Section -->
+            <section class="cards">
+                <div class="card">
+                    <div class="icon">👥</div>
+                    <h3>Data Karyawan</h3>
+                    <p>5</p>
+                </div>
+                <div class="card">
+                    <div class="icon">📅</div>
+                    <h3>Absensi Hari Ini</h3>
+                    <p>5</p>
+                </div>
+                <div class="card">
+                    <div class="icon">📄</div>
+                    <h3>Izin Menunggu Konfirmasi</h3>
+                    <p>0</p>
+                </div>
+                <div class="card">
+                    <div class="icon">⏳</div>
+                    <h3>Lembur Menunggu Konfirmasi</h3>
+                    <p>0</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data Karyawan</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="UNPAM_logo1.png" alt="Logo">
+            </div>
+            <div class="user-info">
+                <p>Welcome, Alessandro</p>
+                <span>Administrator</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li class="active"><a href="#">Karyawan</a></li>
+                    <li><a href="jabatan.html">Jabatan</a></li>
+                    <li><a href="divisi.html">Divisi</a></li>
+                    <li><a href="daftar_hadir.html">Absen</a></li>
+                    <li><a href="izin.html">Izin</a></li>
+                    <li><a href="lembur.html">Lembur</a></li>
+                    <li><a href="#">Slip Gaji</a></li>
+                </ul>
+            </nav>
+            <button class="logout">Logout</button>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>Forms > Karyawan > Tambah Data Karyawan</h1>
+            </header>
+            <section class="form-section">
+                <h2>Tambah Data Karyawan</h2>
+                <form action="#" method="POST">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="gender">Jenis Kelamin</label>
+                    <select id="gender" name="gender">
+                        <option value="">---</option>
+                        <option value="Laki-laki">Laki-laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">No HP</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="address">Alamat</label>
+                    <textarea id="address" name="address" rows="3"></textarea>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <label for="position">Jabatan</label>
+                    <select id="position" name="position">
+                        <option value="">---</option>
+                        <option value="Staff">Staff</option>
+                        <option value="Manager">Manager</option>
+                    </select>
+
+                    <label for="division">Divisi</label>
+                    <select id="division" name="division">
+                        <option value="">---</option>
+                        <option value="IT">IT</option>
+                        <option value="HR">HR</option>
+                    </select>
+
+                    <div class="form-buttons">
+                        <button type="submit" class="save-btn">Simpan</button>
+                        <button type="reset" class="cancel-btn">Batal</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

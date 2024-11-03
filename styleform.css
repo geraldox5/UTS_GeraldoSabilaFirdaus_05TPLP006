@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2b65ec;
+    color: white;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.sidebar .logo img {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.sidebar .user-info {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    padding: 10px 20px;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar nav ul li.active {
+    background-color: #1d4ed8;
+    border-radius: 5px;
+}
+
+.logout {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #1d4ed8;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+header h1 {
+    font-size: 1.2rem;
+    color: #2b65ec;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+form textarea {
+    resize: none;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.form-buttons .save-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-buttons .cancel-btn {
+    padding: 10px 20px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
